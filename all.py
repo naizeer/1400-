@@ -40,7 +40,12 @@ def main():
             print(num, "вот такое число Вы ввели")
 
         elif select_program =="1.10":
-            
+            name = input("Введите ваше имя: ")
+            print(name)
+
+        elif select_program =="1.11" :
+            team = input("Введите название футбольной команды: ")
+            print(team + " - это чкмпион!")
 
         else:
             print("вы ввели не верное число")
