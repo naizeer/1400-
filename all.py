@@ -45,7 +45,44 @@ def main():
 
         elif select_program =="1.11" :
             team = input("Введите название футбольной команды: ")
-            print(team + " - это чкмпион!")
+            print(team + " - это чемпион!")
+
+        elif select_program =="1.12" :
+            name = input("Введите имя: ")
+            print("Привет,", name + "!")
+
+        elif select_program =="1.13" :
+            n = int(input("Введите целое число: "))
+            print(f"Следующее за числом {n} число - {n + 1}.")
+            print(f"Для числа {n} предыдущее число - {n - 1}.")
+
+        elif select_program == "1.14" :
+            a = input("Введите первое число: ")
+            b = input("Введите второе число: ")
+            c = input("Введите третье число: ")
+            print(a, b, c, sep="  ")
+
+        elif select_program == "1.15" :
+            a = input("Введите первое число: ")
+            b = input("Введите второе число: ")
+            c = input("Введите третье число: ")
+            d = input("Введите четвёртое число: ")
+            print(a, b, c, d)
+
+        elif select_program == "1.16" :
+            # а) 5 10
+            #   7см
+            print("5 10")
+            print("7см")
+            # б) 100t
+            #   1949v
+            print("100t")
+            print("1949v")
+            # в) x y
+            #   5 y
+            print("x y")
+            print("5 y")
+            
 
         else:
             print("вы ввели не верное число")
