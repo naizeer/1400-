@@ -82,7 +82,22 @@ def main():
             #   5 y
             print("x y")
             print("5 y")
-            
+                    elif select_program == "1.17":
+            print("a)  2 кг")
+            print("    13 17")
+            print("b)  a 1")
+            print("    19 b")
+            print("v)  x y")
+            print("    5 y")
+        
+        elif select_program == "2.1":
+            x = float(input("Введите значение x: "))
+            y = 17*x**2 + 5*x - 21
+
+            a = float(input("Введите значение a: "))
+            y = 3*a**2 + 5*a - 21
+            print(f"y = {y}")
+
 
         else:
             print("вы ввели не верное число")
